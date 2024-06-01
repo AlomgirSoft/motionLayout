@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/layout_back"
+    app:motionDebug="SHOW_PATH"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_set_up5_scene"
+    tools:context=".SetUp_5_Activity">
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_star_outline" />
+
+    <TextView
+        android:id="@+id/credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/credits"
+        android:textColor="?colorOnPrimary"
+        android:textSize="24sp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/black_circle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/circal_act"
+         />
+
+    <Button
+        android:id="@+id/setUp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set up 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/black_circle" />
+
+    <Button
+        android:id="@+id/setUp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set up  2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setUp1" />
+
+    <Button
+        android:id="@+id/setUp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set up 3"
+        app:layout_constraintEnd_toEndOf="@+id/setUp2"
+        app:layout_constraintStart_toStartOf="@+id/setUp2"
+        app:layout_constraintTop_toBottomOf="@+id/setUp2" />
+
+    <Button
+        android:id="@+id/setUp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="set up 4"
+        app:layout_constraintEnd_toEndOf="@+id/setUp3"
+        app:layout_constraintStart_toStartOf="@+id/setUp3"
+        app:layout_constraintTop_toBottomOf="@+id/setUp3" />
+
+    <Button
+        android:id="@+id/setUp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set up5"
+        app:layout_constraintEnd_toEndOf="@+id/setUp4"
+        app:layout_constraintStart_toStartOf="@+id/setUp4"
+        app:layout_constraintTop_toBottomOf="@+id/setUp4" />
+
+    <Button
+        android:id="@+id/setUp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setUp 6"
+        app:layout_constraintEnd_toEndOf="@+id/setUp5"
+        app:layout_constraintStart_toStartOf="@+id/setUp5"
+        app:layout_constraintTop_toBottomOf="@+id/setUp5" />
+    <Button
+        android:id="@+id/setUp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setUp 7"
+        app:layout_constraintEnd_toEndOf="@+id/setUp5"
+        app:layout_constraintStart_toStartOf="@+id/setUp6"
+        app:layout_constraintTop_toBottomOf="@+id/setUp6" />
+    <Button
+        android:id="@+id/setUp8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setUp 8"
+
+        app:layout_constraintStart_toStartOf="@+id/setUp7"
+        app:layout_constraintTop_toBottomOf="@+id/setUp7" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
